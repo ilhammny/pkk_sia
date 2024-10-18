@@ -5,7 +5,7 @@
 	<title>Atlantis Lite - Bootstrap 4 Admin Dashboard</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
 	<link rel="icon" href="{{ asset('assets/img/icon.ico') }}" type="image/x-icon"/>
-
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 	<!-- Fonts and icons -->
 	<script src="{{ asset('assets/js/plugin/webfont/webfont.min.js') }}"></script>
 	<script>
@@ -514,6 +514,8 @@
 <!-- Atlantis DEMO methods, don't include it in your project! -->
 <script src="{{ asset('assets/js/setting-demo.js') }}"></script>
 <script src="{{ asset('assets/js/demo.js') }}"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
 
 	<script>
 		Circles.create({
